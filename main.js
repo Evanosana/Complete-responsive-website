@@ -1,5 +1,6 @@
 const backToTopButton = document.getElementById("back-to-top")
 const links = document.getElementById("links")
+const targetElement = document.getElementById("scrollid")
 
 
 backToTopButton.addEventListener("click", () =>{
@@ -8,6 +9,8 @@ backToTopButton.addEventListener("click", () =>{
 })
 
 links.addEventListener("click",  () =>{
-    document.body.scrollTop = 445;
-    document.documentElement.scrollTop = 445;
+    targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
 })
