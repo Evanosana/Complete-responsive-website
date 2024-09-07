@@ -50,7 +50,7 @@ a{
 a:hover{
     font-size: 2rem;
     transition: 0.5s;
-    color: blue;
+    color: #0563c1;
     text-decoration: underline;
 }
 .link{
