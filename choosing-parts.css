@@ -82,6 +82,9 @@ ul{
     justify-content: space-around;
     list-style: none;
 }
+.flexier{
+    padding-inline: 1.25rem;
+}
 .link{
     width: 100%;
     text-align: center;
@@ -105,6 +108,8 @@ ul{
         text-align: center;
         margin: 0;
         padding: 0;
+        display: flex;
+        flex-direction: column;
     }
     img{
         width: 250px;
@@ -116,20 +121,6 @@ ul{
         text-decoration: none;
         font-size: 1.75rem;
     }
-    label{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        padding: 1.875rem 0;
-        margin: 0;
-        background-color: #353744;
-        border: none;
-        justify-content: space-around;
-        list-style: none;
-        font-size: 2rem;
-        color: white;
-        cursor: pointer;
-    }
     div{
         margin: 0;
         /* border: 4px solid red; */
@@ -137,8 +128,8 @@ ul{
     p{
         margin: 0;
         display: inline-block;
-        font-size: 1.15rem;
-        padding-inline: 17.5rem;
+        font-size: 1.5rem;
+        padding-inline: 27.5%;
         text-align: center;
         /* border: 4px solid red; */
     }
@@ -163,8 +154,11 @@ ul{
     }
     .link {
         width: 100%;
-        text-align: center;
+        height: 2rem;
         margin-bottom: -.063rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
     .flexer{
         margin: 2rem;
@@ -175,6 +169,14 @@ ul{
     }
     #Footer{
         margin-top: 3rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #353744;
+        text-align: center;
+        padding: 1.875rem 0;
+        display: none;
     }
     .flexy{
         display: inline-flex;
@@ -204,9 +206,9 @@ ul{
         margin: 0 0 0 2.5rem;
     }
     h3, a{
-        margin: 0 0 0.75rem 0;
+        margin: 0 0 2rem 0;
         text-align: center;
-        /* border: 4px solid red; */
+         /*border: 4px solid red;*/
     }
     .flexend{
         margin-bottom: 1.5rem;

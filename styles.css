@@ -50,6 +50,8 @@ a{
 a:hover{
     font-size: 2rem;
     transition: 0.5s;
+    color: blue;
+    text-decoration: underline;
 }
 .link{
     text-align: center;
@@ -68,8 +70,6 @@ label{
     color: white;
     cursor: pointer;
 }
-
-
 @media (min-width:1000px){
     *{
         margin: 0;
@@ -86,6 +86,9 @@ label{
     .home{
         margin-top: 1.25rem;
         width: 35%;
+    }
+    #Footer{
+        display: none;
     }
     h1, h3{
         text-align: center;
