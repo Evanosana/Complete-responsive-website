@@ -46,7 +46,9 @@ a{
     font-size: 1.75rem;
     color: white;
 }
-
+#links{
+    text-align: center;
+}
 a:hover{
     font-size: 2rem;
     transition: 0.5s;
